@@ -1,6 +1,7 @@
 import React from 'react';
 import checkbox from '../../images/smalltumb.svg'
 import disabledbox from '../../images/short-film-off.svg'
+import magnifier from '../../images/magnifier.svg'
 
     
 function SearchForm() {
@@ -11,7 +12,9 @@ function SearchForm() {
     return (
         <form className='search-form'>
             <div className='search-form__content'>
-                <button className='search-form__button-magnifier'></button>
+                <button className='search-form__button-magnifier'>
+                    <img src={magnifier} alt='кнопка поиска'></img>
+                </button>
                 <input className='search-form__input' placeholder='Фильм' required></input>
                 <button className='search-form__button-find'>Найти</button>
             </div>

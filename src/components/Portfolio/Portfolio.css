@@ -25,6 +25,7 @@
     /* width: 100%; */
 }
 .portfolio__personal-info_age {
+    font-weight: 400;
     margin: 0 0 26px;
     font-size: 18px;
     line-height: 20px;
